@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Corp | Order Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Food Corp</h1>
+    <p>Fresh meals, delivered to you.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Menu</h2>
+      <div id="menu" class="menu"></div>
+    </section>
+    <aside class="cart">
+      <h2>Your Order</h2>
+      <div id="cart-items"></div>
+      <p class="total">Total: <span id="total">₦0</span></p>
+
+      <form id="order-form">
+        <input type="text" id="name" placeholder="Full name" required />
+        <input type="tel" id="phone" placeholder="Phone number" required />
+        <input type="text" id="address" placeholder="Delivery address" required />
+        <button type="submit">Place Order</button>
+      </form>
+      <p id="message"></p>
+    </aside>
+  </main>
+    <script src="script.js"></script>
+</body>
+</html>
